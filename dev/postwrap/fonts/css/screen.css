@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400';
+
+body { font-family: 'Roboto', sans-serif; font-size:16px; font-weight:300; }
+
+section { margin: 0; background: #F44336; display: inline-block; width:30%; height:10em; color: #ffffff; position:relative;}
+section h2 {font-size:1em; font-weight:400; margin: 1em 1em; position: absolute; left:0; top:0;}
+section h3 {
+    font-size:1em; font-size:1em; font-weight:300;
+    margin: 1em 1em; position: absolute; left:0; bottom:0;
+    border: 1px solid #fff; padding: 0.25em 1em;
+    transition: background-color .5s;
+}
+section h3:hover { background-color: rgba(0,0,0,0.3);}
