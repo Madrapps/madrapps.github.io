@@ -1,3 +1,21 @@
+CURRENT_VERSION_CODE = 2005
+
+window.onload = function() {
+    stringQuery = getUrlParams();
+    var versionCode = stringQuery["versionCode"];
+    var versionName = stringQuery["versionName"];
+
+    if ((typeof versionCode !== "undefined") && (versionCode !== null)){
+        if(parseInt(versionCode) < CURRENT_VERSION_CODE){
+            // The user has an older version of the app
+            var upgradeElement = document.getElementById('upgrade');
+            upgradeElement.style.display = 'block';
+            upgradeElement.style.visibility = 'visible';
+        }
+    }
+};
+
+
 function getUrlParams() {
   // This function is anonymous, is executed immediately and
   // the return value is assigned to QueryString!

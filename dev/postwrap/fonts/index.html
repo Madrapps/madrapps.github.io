@@ -7,22 +7,6 @@
           media="screen,projection"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css">
     <script type="text/javascript" src="js/android.js"></script>
-    <script type="text/javascript">
-        window.onload = function() {
-            stringQuery = getUrlParams();
-            var versionCode = stringQuery["versionCode"];
-            var versionName = stringQuery["versionName"];
-
-            var upgradeElement = document.getElementById('upgrade');
-            upgradeElement.style.display = 'block';
-            upgradeElement.style.visibility = 'visible';
-
-            //var upgradeMessageElement = document.getElementById('upgradeMessage');
-            //upgradeMessageElement.innerHTML = '<h1>'+versionCode+'</h1>';
-        };
-
-
-    </script>
 </head>
 <body>
 <div id="page">
@@ -31,12 +15,11 @@
             <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                     <span class="card-title">Update</span>
-                    <p>You are using an older version of the app. Update to the latest version for
+                    <p>You are using an older version of the app. Update to the latest version from Google Play for
                         best experience.</p>
                 </div>
                 <div class="card-action right-align">
-                    <a href="https://play.google.com/store/apps/details?id=com.madrasappfactory.postwrap">Play Store</a>
-                    <a href="http://madrapps.github.io/postwrap/fonts/">Prod Page</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.madrasappfactory.postwrap">UPDATE</a>
                 </div>
             </div>
         </div>
