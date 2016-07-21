@@ -45,30 +45,51 @@ function downloadDisplayFonts() {
 }
 
 function downloadHandwritingFonts() {
-    var fontUrlArray = new Array("https://fonts.google.com/download?family=Pacifico|Amatic%20SC|Dancing%20Script|Courgette|Satisfy|Sacramento|Merienda%20One|Clicker%20Script");
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Pacifico|Amatic%20SC|Dancing%20Script|Courgette|Satisfy|Sacramento|Merienda%20One|Clicker%20Script|Indie%20Flower");
     Android.download(fontUrlArray, "Handwriting Fonts", "fonts.zip");
 }
 
-function downloadLanguageFonts() {
-    var fontUrlArray = [
-        "https://fonts.google.com/download?family=Catamaran",
-        "https://fonts.google.com/download?family=Hind%20Madurai",
-        "https://fonts.google.com/download?family=Arima%20Madurai",
-        "https://fonts.google.com/download?family=El%20Messiri",
-        "https://fonts.google.com/download?family=Mirza",
-        "https://fonts.google.com/download?family=Lemonada",
-        "https://fonts.google.com/download?family=Cairo",
-        "https://fonts.google.com/download?family=Changa",
-        "https://fonts.google.com/download?family=Rakkas",
-        "https://fonts.google.com/download?family=Lalezar",
-        "https://fonts.google.com/download?family=Katibeh"
-    ];
-    Android.download(fontUrlArray, "Language Fonts", "fonts.zip");
+function downloadArabicFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Lateef|Jomhuria|Lalezar|Rakkas|Scheherazade|Katibeh|Harmattan");
+    Android.download(fontUrlArray, "Arabic Fonts", "fonts.zip");
 }
 
-function downloadTTFFont(){
-    var fontUrlArray = [
-        "http://www5.miele.nl/apps/vg/nl/miele/mielea02.nsf/0e87ea0c369c2704c12568ac005c1831/07583f73269e053ac1257274003344e0/$FILE/arial.ttf"
-    ];
-    Android.download(fontUrlArray, "Language Fonts", "arial.ttf");
+function downloadHindiFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Kurale|Rozha%20One|Dekko|Asar|Yatra%20One|Hind");
+    Android.download(fontUrlArray, "Hindi Fonts", "fonts.zip");
+}
+
+function downloadThaiFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Chonburi|Pattaya|Sriracha|Itim|Athiti");
+    Android.download(fontUrlArray, "Thai Fonts", "fonts.zip");
+}
+
+function downloadTeluguFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Sree%20Krushnadevaraya|NTR|Mallanna|Gurajada|Mandali|Gidugu");
+    Android.download(fontUrlArray, "Telugu Fonts", "fonts.zip");
+}
+
+function downloadTamilFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Baloo%20Thambi|Kavivanar|Pavanam|Meera%20Inimai|Hind%20Madurai");
+    Android.download(fontUrlArray, "Tamil Fonts", "fonts.zip");
+}
+
+function downloadHebrewFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Amatica%20SC|Varela%20Round|Arimo|Alef");
+    Android.download(fontUrlArray, "Hebrew Fonts", "fonts.zip");
+}
+
+function downloadGreekFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Ubuntu%20Condensed|Didact%20Gothic|GFS%20Didot|Nova%20Mono");
+    Android.download(fontUrlArray, "Greek Fonts", "fonts.zip");
+}
+
+function downloadBengaliFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Hind%20Siliguri|Atma");
+    Android.download(fontUrlArray, "Bengali Fonts", "fonts.zip");
+}
+
+function downloadCyrillicFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Kelly%20Slab|Ledger|Yeseva%20One|Tenor%20Sans|Neucha");
+    Android.download(fontUrlArray, "Cyrillic Fonts", "fonts.zip");
 }
