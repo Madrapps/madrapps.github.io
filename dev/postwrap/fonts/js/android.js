@@ -49,6 +49,16 @@ function downloadHandwritingFonts() {
     Android.download(fontUrlArray, "Handwriting Fonts", "fonts.zip");
 }
 
+function downloadHandwritingIFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Molle|Yellowtail|Cookie|Great%20Vibes|Tangerine|Pinyon%20Script|Parisienne|Grand%20Hotel|Niconne|Rochester");
+    Android.download(fontUrlArray, "Handwriting I Fonts", "fonts.zip");
+}
+
+function downloadHandwritingIIFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Gloria%20Hallelujah|Shadows%20Into%20Light|Handlee|Damion|Shadows%20Into%20Light%20Two|Homemade%20Apple|Rancho|Reenie%20Beanie|Allura");
+    Android.download(fontUrlArray, "Handwriting II Fonts", "fonts.zip");
+}
+
 function downloadArabicFonts() {
     var fontUrlArray = new Array("https://fonts.google.com/download?family=Lateef|Jomhuria|Lalezar|Rakkas|Scheherazade|Katibeh|Harmattan");
     Android.download(fontUrlArray, "Arabic Fonts", "fonts.zip");
