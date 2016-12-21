@@ -44,9 +44,29 @@ function downloadDisplayFonts() {
     Android.download(fontUrlArray, "Display Fonts","fonts.zip");
 }
 
+function downloadDisplayIFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Chewy|Special%20Elite|Cabin%20Sketch|Graduate|Black%20Ops%20One");
+    Android.download(fontUrlArray, "Display I Fonts","fonts.zip");
+}
+
+function downloadDisplayIIFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Farsan|Allan|Chelsea%20Market|Sansita%20One|Raleway%20Dots");
+    Android.download(fontUrlArray, "Display II Fonts","fonts.zip");
+}
+
 function downloadHandwritingFonts() {
     var fontUrlArray = new Array("https://fonts.google.com/download?family=Pacifico|Amatic%20SC|Dancing%20Script|Courgette|Satisfy|Sacramento|Merienda%20One|Clicker%20Script|Indie%20Flower");
     Android.download(fontUrlArray, "Handwriting Fonts", "fonts.zip");
+}
+
+function downloadHandwritingIFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Molle|Yellowtail|Cookie|Great%20Vibes|Tangerine|Pinyon%20Script|Parisienne|Grand%20Hotel|Niconne|Rochester");
+    Android.download(fontUrlArray, "Handwriting I Fonts", "fonts.zip");
+}
+
+function downloadHandwritingIIFonts() {
+    var fontUrlArray = new Array("https://fonts.google.com/download?family=Gloria%20Hallelujah|Shadows%20Into%20Light|Handlee|Damion|Shadows%20Into%20Light%20Two|Homemade%20Apple|Rancho|Reenie%20Beanie|Allura");
+    Android.download(fontUrlArray, "Handwriting II Fonts", "fonts.zip");
 }
 
 function downloadArabicFonts() {
